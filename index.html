@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flag project</title>
+    <style>
+            /* red rect */
+        .flag{
+            width: 900px;
+            height: 600px; 
+            background-color: #ce1126;
+            position: relative;
+
+        }
+         /* blue rect */
+        .flag > div{
+            background-color:#002868;
+            width: 100%;
+            height:300px;
+            position: absolute;
+            top: 150px;
+        }
+        /* white circle */
+        .flag > div > div{
+            width:200px;
+            height:200px;
+            border-radius: 50%;
+            background-color: white;
+            position: relative;
+            top: 50px;
+            left: 350px;
+        }
+
+        p{
+            margin:0;
+            font-size: 5rem;
+            text-align:center ;
+            color:white;
+        }
+        body > div > div > div > p{
+            color:black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <p>The Flag</p>
+        <div>
+            <div>
+                <p>of Laos</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
